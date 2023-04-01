@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-size: 5vw;
+  width:100vw; 
+  overflow-x:hidden !important;
+  color:white;
+  font-family:sans-serif;
+}
+
+.container {
+  width: 3000%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  
+  margin-bottom: 1px;
+}
+
+.section {
+
+  width:100vw;
+  height: 100vh;
+  border-right:1px solid white;
+  background:blue;
+}
+
